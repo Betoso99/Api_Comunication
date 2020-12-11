@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Api_Comunication.MainPage">
+
+    <StackLayout>
+        <Entry Text="{Binding originPlace}"/>
+        <Entry Text="{Binding destinationPlace}"/>
+        <Button Command="{Binding Search}" Text="Search"/>
+        <Label Text="The distance between the two points is:"/>
+        <Label Text="{Binding ShowDistance}" TextColor="Black"/>
+    </StackLayout>
+
+</ContentPage>
