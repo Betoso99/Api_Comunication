@@ -15,7 +15,7 @@ namespace Api_Comunication.Services
 
         public static void Initialize()
         {
-            _googleMapsKey = "AIzaSyCtEfXlGJUrgmnD6vA6Y4EM0PbZyA3-_v4";
+            _googleMapsKey = "YOUR_API_KEY";
         }
 
         public async Task<Root> GetDistance(string originPlace, string destinationPlace)
